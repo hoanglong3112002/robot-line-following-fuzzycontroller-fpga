@@ -14,6 +14,8 @@ Main Features:
   -Sensors: Infrared sensors for line detection
   
   -Motor Control: PWM-based speed control
+
+  -Node-RED User Interface (Start/Stop control, Speed reference adjustment, Real-time position monitoring (mapview), User authentication required, Real-time speed monitoring)
   
 Images:
 
