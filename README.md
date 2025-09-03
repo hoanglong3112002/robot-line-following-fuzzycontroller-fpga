@@ -20,3 +20,10 @@ Main Features:
 Images:
 
 ![Robot demo](https://github.com/user-attachments/assets/490cc25d-d87f-484e-aeae-83f3e02b5d64)
+
+Node-RED User Interface
+
+![Node-RED Dashboard 1](https://github.com/user-attachments/assets/4c4c78c9-e1ae-40e7-ac71-ea2e127e6ebf)  
+![Node-RED Dashboard 2](https://github.com/user-attachments/assets/e49a2138-b46d-4d37-b29c-0560e550f03e)  
+![Node-RED Dashboard 3](https://github.com/user-attachments/assets/07e96d71-61f3-4da9-be40-4b92c86df026)  
+
