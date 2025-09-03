@@ -21,7 +21,7 @@ Objective: To design and build an autonomous line-following robot using FPGA, co
 
 ![Robot demo](https://github.com/user-attachments/assets/490cc25d-d87f-484e-aeae-83f3e02b5d64)
 
-Node-RED User Interface
+##Node-RED User Interface:
 
 -user authentication
 
@@ -50,3 +50,7 @@ Data Monitoring: Speed data is logged and visualized on ThingSpeak. Although the
 Power Supply: The integrated charge/discharge circuit allows the robot to be powered on with a single button and supports USB Type-C charging.
 
 GPS Functionality: Using the Neo-6M V2 module, GPS data is continuously updated on the map. Accuracy depends on the environment—outdoor areas provide higher precision, while indoor use is not supported.
+
+##Author 
+Nguyen Hoang Long - Computer Engineering Technology Student - Industrial University of Ho Chi Minh City
+Nguyen Thanh Duc - Computer Engineering Technology Student - Industrial University of Ho Chi Minh City
