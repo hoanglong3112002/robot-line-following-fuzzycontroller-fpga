@@ -5,7 +5,7 @@ This project was carried out as part of my studies in Computer Engineering Techn
 The goal was to design and implement an autonomous line-following robot using an FPGA platform combined with a fuzzy logic controller for smooth navigation on curved paths.
 Objective: To design and build an autonomous line-following robot using FPGA, combined with a fuzzy logic controller to ensure accurate movement along curved paths.
 
-Main Features:
+##Main Features:
 
   -Controller: FPGA (Cyclone IV E: EP4CE6F17C8)
   
@@ -17,7 +17,7 @@ Main Features:
 
   -Node-RED User Interface (Start/Stop control, Speed reference adjustment, Real-time position monitoring (mapview), User authentication required, Real-time speed monitoring)
   
-Images:
+##Images:
 
 ![Robot demo](https://github.com/user-attachments/assets/490cc25d-d87f-484e-aeae-83f3e02b5d64)
 
@@ -35,3 +35,18 @@ Node-RED User Interface
 
 ![Node-RED Dashboard 3](https://github.com/user-attachments/assets/07e96d71-61f3-4da9-be40-4b92c86df026)  
 
+##Result:
+
+PWM Generation: The PWM system operates stably at 200 Hz, ensuring effective motor speed control.
+
+Fuzzy Logic Control: Experimental results show that the fuzzy controller enables the robot to accurately follow various track shapes (right angles, circles, triangles, curves). The robot automatically reduces speed when entering turns for smoother navigation.
+
+Control Interface: The Node-RED interface is user-friendly, integrating essential functions such as robot control, real-time charts (measured vs. reference speed), and position tracking on a map.
+
+Data Communication: Real-time communication is achieved via the MQTT protocol. Control signals are delivered promptly, though network instability may cause minor delays.
+
+Data Monitoring: Speed data is logged and visualized on ThingSpeak. Although there is a ~1 second delay, it does not significantly affect system performance.
+
+Power Supply: The integrated charge/discharge circuit allows the robot to be powered on with a single button and supports USB Type-C charging.
+
+GPS Functionality: Using the Neo-6M V2 module, GPS data is continuously updated on the map. Accuracy depends on the environment—outdoor areas provide higher precision, while indoor use is not supported.
