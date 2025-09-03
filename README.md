@@ -52,5 +52,7 @@ Power Supply: The integrated charge/discharge circuit allows the robot to be pow
 GPS Functionality: Using the Neo-6M V2 module, GPS data is continuously updated on the map. Accuracy depends on the environment—outdoor areas provide higher precision, while indoor use is not supported.
 
 ##Author 
+
 Nguyen Hoang Long - Computer Engineering Technology Student - Industrial University of Ho Chi Minh City
+
 Nguyen Thanh Duc - Computer Engineering Technology Student - Industrial University of Ho Chi Minh City
